@@ -1,0 +1,37 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #ff8484;
+  padding: 1rem;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  transition: width 0.3s ease;
+  overflow: hidden;
+}
+
+.sidebar.collapsed {
+  width: 50px;
+}
+
+.sidebar-content {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.sidebar.collapsed .sidebar-content {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.sidebar input, .sidebar select {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 1rem 0;
+}
+
+.sidebar label {
+  font-size: 1rem;
+}
