@@ -1,0 +1,53 @@
+.sidebar {
+  width: 250px;              
+  background-color: #4caf50;   
+  color: #fff;                 
+  padding: 20px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  transition: width 0.3s;
+}
+
+.collapsed {
+  width: 50px;               
+}
+
+.filterForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #ffffff;         
+  background-color: #fff;
+}
+
+.checkbox {
+  margin-right: 8px;
+  accent-color: #4caf50; 
+}
+
+.select {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #000;           
+  background-color: #fff;
+}
